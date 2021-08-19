@@ -273,3 +273,33 @@ li {
   background-repeat: repeat;
   color: white;
 }
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #66545E;
+  background-color: #A39193;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+}
+.tab button:hover {
+  background-color: #5c494b;
+}
+
+.tab button.active {
+  background-color: #6b4b56;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #66545E;
+  border-top: none;
+}
