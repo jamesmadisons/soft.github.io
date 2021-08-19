@@ -268,3 +268,8 @@ li {
   background-color: 255, 255, 255, 0.51;
 }
   
+.gallery {
+  background-image:url('https://64.media.tumblr.com/acaca3c15181771747d9b1f1a6626f4b/tumblr_mqvze4kXAx1sdgezwo8_250.png');
+  background-repeat: repeat;
+  color: white;
+}
